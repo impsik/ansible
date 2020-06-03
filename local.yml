@@ -12,7 +12,7 @@
         repo: 'ppa:ondrej/apache2'
         state: present
     - name: "Add Ondrej PHP repository"
-        apt_repository:
-          validate_certs: no
-          repo: 'ppa:ondrej/php'
-          state: present
+      apt_repository:
+        validate_certs: no
+        repo: 'ppa:ondrej/php'
+        state: present
